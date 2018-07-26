@@ -1,0 +1,146 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="SplitApp.controller.Detail" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:f="sap.ui.layout.form">
+	<Page title="Employee Details">
+
+	<content>
+		<VBox id="myContent">
+			<Panel height="135px" id="headerPanel">
+				<ObjectHeader titleLevel="H1" title="{/Info/Name}"
+					number="{/Info/ID}">
+				</ObjectHeader>
+			</Panel>
+			<IconTabBar expanded="false"
+				class="sapUiSmallMarginBottom sapUiResponsiveContentPadding" id="tools">
+				<items>
+					<IconTabFilter icon="sap-icon://message-information">
+						<Table>
+							<items>
+								<ColumnListItem>
+
+									<cells>
+										<Label text="ID" class="fieldClass" />
+										<Text text="{/Info/ID}" />
+									</cells>
+
+
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text class="fieldClass" text="Age" />
+										<Text text="{/Info/Age}" />
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+
+									<cells>
+										<Text class="fieldClass" text="Address" />
+										<Text text="{/Info/Address}" />
+									</cells>
+
+
+								</ColumnListItem>
+								<ColumnListItem>
+
+									<cells>
+										<Text class="fieldClass" text="Manager" />
+										<Text text="{/Info/Manager}" />
+									</cells>
+
+
+								</ColumnListItem>
+								<ColumnListItem>
+
+									<cells>
+										<Text class="fieldClass" text="House" />
+										<Text text="{/Info/House}" />
+									</cells>
+
+
+								</ColumnListItem>
+							</items>
+
+
+							<columns>
+								<Column>
+
+								</Column>
+								<Column>
+
+								</Column>
+							</columns>
+						</Table>
+
+					</IconTabFilter>
+
+					<IconTabFilter icon="sap-icon://address-book">
+						<Table>
+							<items>
+								<ColumnListItem>
+
+									<cells>
+										<Text class="fieldClass" text="Email" />
+										<Text text="{/Contacts/Email}" />
+									</cells>
+
+
+								</ColumnListItem>
+								<ColumnListItem>
+									<cells>
+										<Text class="fieldClass" text="Owl" />
+										<Text text="{/Contacts/Owl}" />
+									</cells>
+								</ColumnListItem>
+								<ColumnListItem>
+
+									<cells>
+										<Text class="fieldClass" text="Phone" />
+										<Text text="{/Contacts/Phone}" />
+									</cells>
+
+
+								</ColumnListItem>
+
+							</items>
+
+
+							<columns>
+								<Column>
+
+								</Column>
+								<Column>
+
+								</Column>
+							</columns>
+						</Table>
+					</IconTabFilter>
+
+				</items>
+			</IconTabBar>
+
+
+		</VBox>
+	</content>
+
+	<footer>
+		<OverflowToolbar id="otbFooter">
+			<ToolbarSpacer />
+			<OverflowToolbarButton text="Delete" icon="sap-icon://delete"
+				press="deleteNode" />
+			<OverflowToolbarButton text="Add" icon="sap-icon://add"
+				tap="addNode" />
+			<OverflowToolbarButton text="Edit" icon="sap-icon://edit"
+				press="editNode" />
+			<OverflowToolbarButton text="Favorite"
+				icon="sap-icon://favorite" />
+			<OverflowToolbarButton text="Flag" icon="sap-icon://flag" />
+
+		</OverflowToolbar>
+	</footer>
+</Page>
+</mvc:View>
+
+
+	
+			
+
+		
