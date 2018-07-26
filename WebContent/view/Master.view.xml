@@ -1,0 +1,41 @@
+<mvc:View height="100%" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m" controllerName="SplitApp.controller.Master">
+	<Page class="marginBoxContent" title="Employees">
+		<content>
+		<Panel width="300px" height="48px">
+				<headerToolbar>
+					<OverflowToolbar id="otbSubheader">
+						<SearchField  liveChange="onFilter" width="100px" placeholder=" ">
+						</SearchField>
+						<Button text="Reset" type="Transparent" press="onReset" />
+						<OverflowToolbarButton type="Transparent"
+							text="Sort" icon="sap-icon://sort" press="onSort" />
+						<OverflowToolbarButton type="Transparent"
+							text="Group" icon="sap-icon://group-2" press="onGroup" />
+					</OverflowToolbar>
+				</headerToolbar>
+			</Panel>
+			<List id="idList" items="{path:'data>/Employee'}"
+				selectionChange="onItemPressed" mode="SingleSelectMaster">
+				<ObjectListItem>
+					<firstStatus>
+						<ObjectStatus id="textID" text="{data>Info/ID}" />
+					</firstStatus>
+					<attributes>
+						<ObjectAttribute class="Objtitle" text="{data>Info/Name}" />
+					</attributes>
+				</ObjectListItem>
+
+			</List>
+		
+		</content>
+		
+		<footer>
+            <OverflowToolbar >
+                
+                
+ 				
+            </OverflowToolbar>
+		</footer>
+	</Page>
+</mvc:View>
