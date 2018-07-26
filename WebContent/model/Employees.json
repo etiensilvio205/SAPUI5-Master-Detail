@@ -1,0 +1,142 @@
+{
+			   "Employee": [
+				      {
+				      "Info":{
+				         "Name": "Bellatrix LeStrange",
+				         "ID": "BLE123",
+				         "Age":"47",
+				         "Address":"Azkaban",
+				         "House":"Slytherin",
+				         "Manager":"JK"
+				         },
+				         "Contacts":{
+				         "Email":"bellatrix@hogwarts.com",
+				         "Phone":"+666 4567894",
+				         "Owl":"N/A"
+				        }
+				      },
+				      {
+				      "Info":{
+				         "Name": "Tom Riddle",
+				         "ID": "TRI456",
+				         "Age":"76",
+				         "Address":"Horcrux",
+				         "House":"Slytherin",
+				         "Manager":"JK"
+				         },
+				         "Contacts":{
+				         "Email":"riddle@hogwarts.com",
+				         "Phone":"+666 5846217",
+				         "Owl":"Offline"}
+				      },
+				      {
+				      "Info":{
+				         "Name": "Sirius Black",
+				         "ID": "SBL789",
+				         "Age":"45",
+				         "Address":"Azkaban",
+				         "House":"Gryffindor",
+				         "Manager":"JK"
+				         },
+				         "Contacts":{
+				         "Email":"sirius97@hogwarts.com",
+				         "Phone":"+666 9547856",
+				         "Owl":"N/A"}
+				      },
+				      {
+				      "Info":{
+				         "Name": "Ronald Weasley",
+				         "ID": "RWE123",
+				         "Age":"17",
+				        "Address":"Devon",
+				        "House":"Gryffindor",
+				         "Manager":"JK"
+				         },
+				         "Contacts":{
+				         "Email":"ronny@hogwarts.com",
+				         "Phone":"+666 7821463",
+				         "Owl":"Pigwidgeon"}
+				      },
+				      {
+				       "Info":{
+				         "Name": "Hermione Granger",
+				         "ID": "HGR789",
+				         "Age":"17",
+				        "Address":"Hampstead",
+				        "House":"Gryffindor",
+				         "Manager":"JK"
+				         },
+				         "Contacts":{
+				         "Email":"sweethermy@hogwarts.com",
+				         "Phone":"+666 8541369",
+				         "Owl":"N/A"}
+				      },
+				      {"Info":{
+					         "Name": "Harry Potter",
+					         "ID": "HPO489",
+					         "Age":"17",
+					        "Address":"Privet Drive",
+					        "House":"Gryffindor",
+					         "Manager":"JK"
+					         },
+					         "Contacts":{
+					         "Email":"harrypotter45@hogwarts.com",
+					         "Phone":"+666 4521863",
+					         "Owl":"Hedwig"}
+					      },
+						      {"Info":{
+							         "Name": "Ginny Weasley",
+							         "ID": "GWE451",
+							         "Age":"15",
+							        "Address":"Devon",
+							         "House":"Gryffindor",
+							         "Manager":"JK"
+							         },
+							         "Contacts":{
+							         "Email":"ginnyloveharry@hogwarts.com",
+							         "Phone":"+666 5126847",
+							         "Owl":"Pigwidgeon"}
+							      },
+							      {"Info":{
+							         "Name": "Rubeus Hagrid",
+							         "ID": "RHA451",
+							         "Age":"53",
+							        "Address":"Hogwarts",
+							         "House":"Gryffindor",
+							         "Manager":"JK"
+							         },
+							         "Contacts":{
+							         "Email":"rubbyhagrid@hogwarts.com",
+							         "Phone":"+666 7469512",
+							         "Owl":"N/A"}
+							      },
+							      {"Info":{
+							         "Name": "Severus Snape",
+							         "ID": "SSN745",
+							         "Age":"65",
+							        "Address":"Hogwarts",
+							         "House":"Slytherin",
+							         "Manager":"JK"
+							         },
+							         "Contacts":{
+							         "Email":"severussnapy97@hogwarts.com",
+							         "Phone":"+666 7458126",
+							         "Owl":"N/A"}
+							      },
+							     
+							      {"Info":{
+								         "Name": "Draco Malfoy",
+								         "ID": "DMA451",
+								         "Age":"17",
+								        "Address":"Whiltshire",
+								         "Manager":"JK",
+								         "House":"Slytherin"
+								         },
+								    "Contacts":{
+								         "Email":"dracogo@hogwarts.com",
+								         "Phone":"+666 7489512",
+								         "Owl":"Bubo Bubo"
+								      }
+								      }
+				   ]
+				}
