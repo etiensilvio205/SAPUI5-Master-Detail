@@ -1,0 +1,119 @@
+<core:FragmentDefinition xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<VBox>
+		<Panel height="135px" id="headerPanel">
+			<ObjectHeader titleLevel="H1" title="{/Info/Name}"
+				number="{/Info/ID}">
+			</ObjectHeader>
+		</Panel>
+		<IconTabBar expanded="false"
+			class="sapUiSmallMarginBottom sapUiResponsiveContentPadding" id="tools">
+			<items>
+				<IconTabFilter icon="sap-icon://message-information">
+					<Table>
+						<items>
+							<ColumnListItem>
+
+								<cells>
+									<Label text="ID" class="fieldClass" />
+									<Text text="{/Info/ID}" />
+								</cells>
+
+
+							</ColumnListItem>
+							<ColumnListItem>
+								<cells>
+									<Text class="fieldClass" text="Age" />
+									<Text text="{/Info/Age}" />
+								</cells>
+							</ColumnListItem>
+							<ColumnListItem>
+
+								<cells>
+									<Text class="fieldClass" text="Address" />
+									<Text text="{/Info/Address}" />
+								</cells>
+
+
+							</ColumnListItem>
+							<ColumnListItem>
+
+								<cells>
+									<Text class="fieldClass" text="Manager" />
+									<Text text="{/Info/Manager}" />
+								</cells>
+
+
+							</ColumnListItem>
+							<ColumnListItem>
+
+								<cells>
+									<Text class="fieldClass" text="House" />
+									<Text text="{/Info/House}" />
+								</cells>
+
+
+							</ColumnListItem>
+						</items>
+
+
+						<columns>
+							<Column>
+
+							</Column>
+							<Column>
+
+							</Column>
+						</columns>
+					</Table>
+
+				</IconTabFilter>
+
+				<IconTabFilter icon="sap-icon://address-book">
+					<Table>
+						<items>
+							<ColumnListItem>
+
+								<cells>
+									<Text class="fieldClass" text="Email" />
+									<Text text="{/Contacts/Email}" />
+								</cells>
+
+
+							</ColumnListItem>
+							<ColumnListItem>
+								<cells>
+									<Text class="fieldClass" text="Owl" />
+									<Text text="{/Contacts/Owl}" />
+								</cells>
+							</ColumnListItem>
+							<ColumnListItem>
+
+								<cells>
+									<Text class="fieldClass" text="Phone" />
+									<Text text="{/Contacts/Phone}" />
+								</cells>
+
+
+							</ColumnListItem>
+
+						</items>
+
+
+						<columns>
+							<Column>
+
+							</Column>
+							<Column>
+
+							</Column>
+						</columns>
+					</Table>
+				</IconTabFilter>
+
+			</items>
+		</IconTabBar>
+
+
+	</VBox>
+</core:FragmentDefinition>
