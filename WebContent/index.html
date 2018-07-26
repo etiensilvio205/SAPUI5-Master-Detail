@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta charset="UTF-8">
+
+<title>SplitApp</title>
+
+<script id="sap-ui-bootstrap" src="resources/sap-ui-core.js"
+	data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal"
+	data-sap-ui-compatVersion="edge"
+	data-sap-ui-resourceroots='{"SplitApp": ""}'>
+		</script>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<script>
+		sap.ui.getCore().attachInit(function() {
+        	var shell=new sap.m.Shell();
+    		var app = new sap.m.SplitApp();
+            var master = sap.ui.xmlview({id:"master", viewName:"SplitApp.view.Master"});
+            app.addMasterPage(master);
+            var detail = sap.ui.xmlview({id:"detail", viewName:"SplitApp.view.Detail"});
+            app.addDetailPage(detail);
+            shell.setApp(app);
+            shell.placeAt("content");
+		});
+		</script>
+</head>
+
+<body class="sapUiBody" id="content">
+</body>
+
+</html>
