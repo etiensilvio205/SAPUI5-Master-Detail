@@ -1,0 +1,89 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core" >
+	<VBox class="sapUiSmallMargin">
+		<f:SimpleForm id="SimpleFormChange354"
+			minWidth="1024"
+			maxContainerCols="2"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Edit"
+			labelSpanL="3"
+			labelSpanM="3"
+			emptySpanL="4"
+			emptySpanM="4"
+			columnsL="1"
+			columnsM="1"
+			class="editableForm">
+			<f:content>
+				<Label text="Name" />
+				<Input  id="name" value="{/Info/Name}" />
+				<Label text="ID" />
+				<Input  id="id" value="{/Info/ID}">
+				<layoutData>
+						<l:GridData span="L2 M2 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Address" />
+				<Input  id="address" value="{/Info/Address}">
+					<layoutData>
+						<l:GridData span="L4 M4 S6" />
+					</layoutData>
+				</Input>
+				<Label text="House" />
+				<Select width="100%" id="house">
+					<items >
+						<core:Item text="Gryffindor" value="Gryffindor" />
+						<core:Item text="Hufflepuff" value="Hufflepuff"/>
+						<core:Item text="Ravenclaw" value="Ravenclaw"/>
+						<core:Item text="Slytherin" value="Slytherin"/>
+					</items>
+				</Select>
+				<Label text="Phone" />
+				<Input  id="phone" value="{/Contacts/Phone}">
+				<layoutData>
+						<l:GridData span="L2 M2 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Age" />
+				<Input  id="age" value="{/Info/Age}">
+				<layoutData>
+						<l:GridData span="L1 M1 S2" />
+					</layoutData>
+				</Input>
+				<Label text="Manager" />
+				<Input  id="manager" value="{/Info/Manager}">
+				<layoutData>
+						<l:GridData span="L2 M2 S4" />
+					</layoutData>
+				</Input>
+				<Label text="Email" />
+				<Input  id="email" value="{/Contacts/Email}">
+				<layoutData>
+						<l:GridData span="L4 M4 S6" />
+					</layoutData>
+				</Input>
+				<Label text="Owl" />
+				<Input  id="owl" value="{/Contacts/Owl}">
+				<layoutData>
+						<l:GridData span="L2 M2 S4" />
+					</layoutData>
+				</Input>
+				
+			</f:content>
+			
+		</f:SimpleForm>
+		
+			<Bar>
+				<contentRight>
+					<Button id="save" text="Save" type="Emphasized" visible="true" press="SaveEdit" />
+					<Button id="cancel" text="Cancel" visible="true" press="cancelHandle" />
+				</contentRight>
+			</Bar>
+		
+	</VBox>
+	
+		
+</core:FragmentDefinition>
